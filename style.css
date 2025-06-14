@@ -1,0 +1,50 @@
+.topo{
+  text-align: center;
+  color: white;
+}
+
+.logo{
+width: 80px;
+}
+.conteiner{
+  display: flex;
+  padding: 10px;
+  background-color: #3d1446;
+  justify-content:space-between
+}
+.menuzim{
+  
+  width: 100px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .contatos {
+    margin: 10px;
+    min-width: 200px;
+  }
+
+  .contatos h3 {
+    margin-bottom: 10px;
+  }
+
+  .contatos a {
+    display: block;
+    color: #cccccc;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+    transition: color 0.7s;
+  }
+
+  .contatos a:hover {
+    color: rgb(255, 170, 255);
+  }
