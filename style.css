@@ -48,3 +48,19 @@ footer {
   .contatos a:hover {
     color: rgb(255, 170, 255);
   }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 6 / 3; }
+    .div2 { grid-area: 1 / 4 / 6 / 6; }
+
+  .div1-2{
+   text-align: center;
+   font-size: 300%
+  }
+   
