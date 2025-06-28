@@ -4,16 +4,31 @@ body {
   background-color: #111;
   color: #fff;
 }
+.logo{
+  width: 2rem;
+  height: 2rem;
+  padding-left: 40px;
+  padding-top: 0.5rem;
+  
+}
+.menuzim{
+  width: 3rem;
+  height: 2rem;
+  padding: 0%;
+  padding-right:40px ;
+  padding-top: 0.5rem;
+
+}
 
 header {
   background-color: #1e1e1e;
-  padding: 20px;
+  padding: 2rem;
   text-align: center;
+  
 }
-
 header h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #EB7EFB;
 }
 
@@ -48,7 +63,7 @@ nav a:hover {
 .card {
   background-color: #1a1a1a;
   border-radius: 10px;
-  box-shadow: 0 0 10px #00ffff33;
+  box-shadow: 0 0 50px #6E9CFA;
   max-width: 300px;
   flex: 1 1 300px;
   padding: 15px;
@@ -62,6 +77,7 @@ nav a:hover {
 .card h2 {
   color: #EB7EFB;
   font-size: 1.4rem;
+  font-style: italic;
 }
 
 .card p {
@@ -81,7 +97,7 @@ footer {
 
   .contatos {
     margin: 1rem;
-    min-width: 20rem;
+    min-width: 2rem;
   }
 
   .contatos h3 {
@@ -99,6 +115,12 @@ footer {
 
   .contatos a:hover {
     color: rgb(255, 170, 255);
+  }
+  .Capitulos{
+    text-align: center;
+    font-size: 5rem;
+    font-style: italic;
+    color: #EB7EFB;
   }
   
    
